@@ -6,7 +6,7 @@
 
 main {
     min-height: 100vh;
-    background: -webkit-gradient(linear, left bottom, right top, from(#65dfc9), to(#6cdbeb));
+    background: -webkit-gradient(linear, left bottom, right top, from(#f46b45), to(#ED8F03));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,11 +44,13 @@ main {
 
 .dashboard {
     background: white;
-    padding: 30px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
+    max-width: 30vh;
     align-items: center;
     border-radius: 2rem 0rem 0rem 2rem;
+    flex: 1;
 }
 
 .games {
@@ -56,8 +58,49 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    
+    flex: 1;
 }
+
+.cards {
+    width: 100%;
+}
+
+.cards .card {
+    background: white;
+    margin: 2rem;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.cards .card img {
+    max-width: 25%;
+    border-radius: 50% 0%;
+}
+
+.games .status input {
+    border: none;
+    opacity: 0.7;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    width: 40vh;
+    position: relative;
+    left: -35%;
+    padding: 0.9px;
+    margin-top: 2rem;
+}
+
+.games .status h1 {
+    position: relative;
+    left: -35%;
+}
+
+.games .status h1 span {
+    color: orange;
+    font-size: 26px;
+}
+
+
 
 
