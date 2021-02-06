@@ -72,6 +72,12 @@ main {
     display: flex;
     justify-content: space-around;
     padding: 1rem;
+    box-shadow: 5px 5px 5px gray;
+    align-items: center;
+}
+
+.cards .card:hover  {
+    box-shadow: none;
 }
 
 .cards .card img {
@@ -89,6 +95,7 @@ main {
     left: -35%;
     padding: 0.9px;
     margin-top: 2rem;
+    border-radius: 20px;
 }
 
 .games .status h1 {
@@ -101,6 +108,15 @@ main {
     font-size: 26px;
 }
 
+.dashboard .links{
+    padding: 50px 0px 10px 0px;
+}
 
+.dashboard .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+}
 
 

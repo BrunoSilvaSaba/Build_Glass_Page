@@ -106,6 +106,16 @@ main {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding: 1rem;
+  -webkit-box-shadow: 5px 5px 5px gray;
+          box-shadow: 5px 5px 5px gray;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cards .card:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .cards .card img {
@@ -124,6 +134,7 @@ main {
   left: -35%;
   padding: 0.9px;
   margin-top: 2rem;
+  border-radius: 20px;
 }
 
 .games .status h1 {
@@ -134,5 +145,22 @@ main {
 .games .status h1 span {
   color: orange;
   font-size: 26px;
+}
+
+.dashboard .links {
+  padding: 50px 0px 10px 0px;
+}
+
+.dashboard .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0px 10px 0px;
 }
 /*# sourceMappingURL=main.css.map */
