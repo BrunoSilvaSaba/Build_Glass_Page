@@ -72,17 +72,24 @@ main {
     display: flex;
     justify-content: space-around;
     padding: 1rem;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 3px 3px 4px gray;
     align-items: center;
+    cursor: pointer;
 }
 
 .cards .card:hover  {
-    box-shadow: none;
+        box-shadow: none;
 }
+
 
 .cards .card img {
     max-width: 25%;
     border-radius: 50% 0%;
+    box-shadow: 02px 02px 02px gray;
+}
+
+.cards .card img:hover {
+    box-shadow: none;
 }
 
 .games .status input {
@@ -117,6 +124,10 @@ main {
     justify-content: center;
     align-items: center;
     padding: 10px 0px 10px 0px;
+    cursor: pointer;
 }
 
+.user {
+    text-align: center;
+}
 

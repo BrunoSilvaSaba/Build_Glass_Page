@@ -106,11 +106,12 @@ main {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding: 1rem;
-  -webkit-box-shadow: 5px 5px 5px gray;
-          box-shadow: 5px 5px 5px gray;
+  -webkit-box-shadow: 3px 3px 4px gray;
+          box-shadow: 3px 3px 4px gray;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 
 .cards .card:hover {
@@ -121,6 +122,13 @@ main {
 .cards .card img {
   max-width: 25%;
   border-radius: 50% 0%;
+  -webkit-box-shadow: 02px 02px 02px gray;
+          box-shadow: 02px 02px 02px gray;
+}
+
+.cards .card img:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .games .status input {
@@ -162,5 +170,10 @@ main {
       -ms-flex-align: center;
           align-items: center;
   padding: 10px 0px 10px 0px;
+  cursor: pointer;
+}
+
+.user {
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
