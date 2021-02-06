@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+$style-shadow: 02px 02px 02px gray;
+
 main {
     min-height: 100vh;
     background: -webkit-gradient(linear, left bottom, right top, from(#f46b45), to(#ED8F03));
@@ -72,7 +74,7 @@ main {
     display: flex;
     justify-content: space-around;
     padding: 1rem;
-    box-shadow: 3px 3px 4px gray;
+    box-shadow: $style-shadow;
     align-items: center;
     cursor: pointer;
 }
@@ -85,7 +87,7 @@ main {
 .cards .card img {
     max-width: 25%;
     border-radius: 50% 0%;
-    box-shadow: 02px 02px 02px gray;
+    box-shadow: $style-shadow;
 }
 
 .cards .card img:hover {

@@ -106,8 +106,8 @@ main {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding: 1rem;
-  -webkit-box-shadow: 3px 3px 4px gray;
-          box-shadow: 3px 3px 4px gray;
+  -webkit-box-shadow: 2px 2px 2px gray;
+          box-shadow: 2px 2px 2px gray;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -122,8 +122,8 @@ main {
 .cards .card img {
   max-width: 25%;
   border-radius: 50% 0%;
-  -webkit-box-shadow: 02px 02px 02px gray;
-          box-shadow: 02px 02px 02px gray;
+  -webkit-box-shadow: 2px 2px 2px gray;
+          box-shadow: 2px 2px 2px gray;
 }
 
 .cards .card img:hover {
